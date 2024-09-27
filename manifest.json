@@ -1,0 +1,9 @@
+{
+    "name": "Candidatos",
+    "theme_color": "#409184",
+    "background_color": "#409184",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/",
+    "icon":"icon.png"
+  }

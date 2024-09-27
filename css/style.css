@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
-/* colocar tudo um pouquinho para cima */
-
 body {
-  /* font-family: 'Lato', sans-serif; */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
@@ -11,7 +6,6 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 20px;
-  /* background-color: #457173; */
   background: rgb(4,21,48);
 background: linear-gradient(125deg, rgba(4,21,48,1) 0%, rgba(11,146,127,1) 32%, rgba(12,140,115,1) 60%, rgba(4,21,48,1) 100%);
   min-height: 100vh;
@@ -27,32 +21,6 @@ p{
   color: #dadada;
   font-size: 14px;
   margin-bottom: 5px;
-}
-
-select {
-  font-family: 'Lato', sans-serif;
-  padding: 3px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  background-color: #e6f7ff; 
-  font-size: 16px;
-  color: #5c5b5b;
-  outline: none;
-  margin-bottom: 20px;
-  width: 350px;
-  height: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-select:hover {
-  background-color: #d9f0ff; 
-}
-
-select:focus {
-  border-color: #66b3ff; 
-  box-shadow: 0 0 5px rgba(102, 179, 255, 0.5);
 }
 
 .candidatos {
@@ -163,7 +131,7 @@ select:focus {
 
 .candidatos #partidoSigla {
   margin-top: 12px;
-  position: absolute;
+  position: relative;
   top: 70%;
   left: 50%;
   font-size: 15px;
@@ -176,12 +144,14 @@ select:focus {
 }
 
 .search {
+  position: relative;
   display: flex;
   align-items: center;
 }
 
-#search-input {
+#barraPesquisa {
   padding: 10px;
+  margin-bottom: 20px;
   font-size: 16px;
   border: 2px solid #ccc;
   border-radius: 10px;
@@ -189,13 +159,14 @@ select:focus {
   width: 350px;
 }
 
-#search-input:focus {
+#barraPesquisa:focus {
   border-color: #99caff;
 }
 
-#search-button {
-  position: absolute;
-  margin-left: 340px;
+#iconePesquisa {
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: -50px;
   cursor: pointer;
 }
 
