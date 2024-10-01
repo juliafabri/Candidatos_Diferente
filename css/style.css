@@ -23,8 +23,8 @@ p{
   font-size: 14px;
   margin-bottom: 5px;
   position: absolute;
-  left: 25%;
-  top: 15%;
+  left: 30%;
+  top: 10%;
 }
 
 .candidatos {
@@ -154,6 +154,7 @@ p{
 }
 
 .search {
+  top: 22%;
   left: 50%;
   position: absolute;
   display: flex;
