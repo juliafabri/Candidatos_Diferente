@@ -22,7 +22,7 @@ p{
   color: #dadada;
   font-size: 14px;
   margin-bottom: 5px;
-  position: relative;
+  position: absolute;
   left: 25%;
   top: 15%;
 }
