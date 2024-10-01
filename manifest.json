@@ -2,8 +2,20 @@
     "name": "Candidatos",
     "theme_color": "#409184",
     "background_color": "#409184",
-    "display": "browser",
+    "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "icon":"icon.png"
+    "icons": [  
+      {
+        "src": "img/icon.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "img/logo.jpeg",
+        "sizes": "512x512",
+        "type": "image/jpeg"
+      }
+    ],
+    "lang": "pt-BR"
   }
